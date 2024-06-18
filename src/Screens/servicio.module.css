@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+    background: linear-gradient(to right, #0077b6, #7000d8); /* Cambia los colores a los que prefieras */
+}
+
+.title {
+    font-size: 3em;
+    color: white; /* Cambia el color del texto para que contraste con el fondo */
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.title:hover {
+    font-size: 5em;
+    color: #00b4d8; 
+    transform: scale(1.1);
+}
+
+.input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #00b4d8;
+}
+
+.star {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+.star.filled {
+    color: gold;
+}
+
+.select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.paymentMethodContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+}
